@@ -1,3 +1,6 @@
+# Hide Windows Search Taskbar:
+Set-ItemProperty -Path HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Search -Name SearchBoxTaskbarMode -Value 0 -Type DWord -Force
+
 # Get-AppxPackage Microsoft.549981C3F5F10 | Remove-AppxPackage # Remove Cortana app
 # Get-AppxPackage MicrosoftWindows.Client.WebExperience | Remove-AppxPackage # Remove Widgets app
 # Get-AppxPackage Microsoft.GetHelp | Remove-AppxPackage # Remove Get Help app
