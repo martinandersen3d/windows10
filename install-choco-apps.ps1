@@ -12,13 +12,13 @@ choco install Firefox -y
 choco install fontforge -y
 choco install fzf -y
 choco install gifcam -y
-choco install github-desktop -y
+# choco install github-desktop -y
 choco install greenshot -y
 choco install InkScape -y
 choco install irfanview -y
 choco install lunacy -y
-choco install manictime -y
-choco install manictime.install -y
+# choco install manictime -y
+# choco install manictime.install -y
 choco install mysql.workbench -y
 choco install netfx-4.6.2 -y
 choco install obs-studio -y
