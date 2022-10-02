@@ -1,5 +1,6 @@
 choco install 7zip -y
 choco install 7zip.install -y
+choco install anydesk.install -y
 choco install autoit -y
 choco install autoit.install -y
 choco install bat -y
@@ -14,8 +15,10 @@ choco install fzf -y
 choco install gifcam -y
 # choco install github-desktop -y
 choco install greenshot -y
+choco install HeidiSQL -y
 choco install InkScape -y
 choco install irfanview -y
+choco install linqpad7 -y
 choco install lunacy -y
 # choco install manictime -y
 # choco install manictime.install -y
@@ -33,6 +36,7 @@ choco install potplayer -y
 choco install powertoys -y
 choco install sharpkeys -y
 choco install slack -y
+choco install screentogif.install -y
 choco install StarUML -y
 choco install strokesplus -y
 choco install strokesplus.install -y
@@ -40,10 +44,12 @@ choco install teamviewer -y
 choco install thunderbird -y
 choco install totalcommander -y
 choco install treesizefree -y
-choco install typora -y
+# choco install typora -y
 choco install velocity -y
 choco install virustotaluploader -y
 choco install vlc -y
+choco install vscode.install -y
+choco install vscode-insiders.install -y
 choco install winmerge -y
 choco install zeal -y
 choco install zeal.install -y
