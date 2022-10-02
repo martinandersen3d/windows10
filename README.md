@@ -23,3 +23,11 @@ https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio
 https://www.linqpad.net/Download.aspx
 
 https://www.softwareok.com/?seite=Microsoft/QuickTextPaste
+
+
+# Work in Progress
+
+Makes it easy to setup fast navigation to important apps, folders and websites:
+
+![image](./images/taskbarlinks.png)
+![image](./images/linkspreview.png)
