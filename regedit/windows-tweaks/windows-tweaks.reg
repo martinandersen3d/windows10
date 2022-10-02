@@ -1,0 +1,155 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Search]
+"BingSearchEnabled"=dword:00000000
+"AllowSearchToUseLocation"=dword:00000000
+; "CortanaConsent"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search]
+; "AllowCortana"=dword:00000000
+"DisableWebSearch"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Explorer]
+"NoUseStoreOpenWith"=dword:00000001
+; "NoNewAppAlert"=dword:00000001
+; "DisableSearchBoxSuggestions"=dword:00000001
+"HidePeopleBar"=dword:00000001
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+; "Start_SearchFiles"=dword:00000002
+"DisallowShaking"=dword:00000001
+; "ShowCortanaButton"=dword:00000001
+; "MultiTaskingAltTabFilter"=dword:00000003
+; "ShowSyncProviderNotifications"=dword:00000000
+;"Start_TrackProgs"=dword:00000000
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced\People]
+"PeopleBand"=dword:00000000
+"CapacityOfPeopleBar"=dword:00000000
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\ContentDeliveryManager]
+;Disable auto-install of suggested apps
+; "SilentInstalledAppsEnabled"=dword:00000000
+;Don't show app suggestions in start
+"SystemPaneSuggestionsEnabled"=dword:00000000
+;Don't show welcome experience
+"SubscribedContent-310093Enabled"=dword:00000000
+;Disable tips, tricks and suggestions
+"SoftLandingEnabled"=dword:00000000
+"SubscribedContent-338389Enabled"=dword:00000000
+;Disable timeline
+"SubscribedContent-353698Enabled"=dword:00000000
+;Disable Start Menu suggestions
+; "SubscribedContent-338388Enabled"=dword:00000000
+;Disable suggested content in Settings
+; "SubscribedContent-338393Enabled"=dword:00000000
+; "SubscribedContent-353694Enabled"=dword:00000000
+; "SubscribedContent-353696Enabled"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\System]
+; "EnableActivityFeed"=dword:00000000
+"AllowClipboardHistory"=dword:00000000
+"UploadUserActivities"=dword:00000000
+"AllowCrossDeviceClipboard"=dword:00000000
+"PublishUserActivities"=dword:00000000
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Clipboard]
+"EnableClipboardHistory"=dword:00000000
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\GameBar]
+"AutoGameModeEnabled"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\DataCollection]
+"AllowTelemetry"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Edge]
+; "AddressBarMicrosoftSearchInBingProviderEnabled"=dword:00000000
+; "AdsSettingForIntrusiveAdsSites"=dword:00000002
+; "BingAdsSuppression"=dword:00000001
+; "BlockExternalExtensions"=dword:00000001
+; "DnsOverHttpsMode"="secure"
+; "DnsOverHttpsTemplates"="https://chrome.cloudflare-dns.com/dns-query"
+; "EdgeCollectionsEnabled"=dword:00000000
+; "EdgeDiscoverEnabled"=dword:00000000
+; "EdgeFollowEnabled"=dword:00000000
+"EdgeShoppingAssistantEnabled"=dword:00000000
+; "HideFirstRunExperience"=dword:00000001
+; "MathSolverEnabled"=dword:00000000
+; "NewTabPageAllowedBackgroundTypes"=dword:00000003
+; "NewTabPageContentEnabled"=dword:00000000
+; "NewTabPageHideDefaultTopSites"=dword:00000001
+; "NewTabPageQuickLinksEnabled"=dword:00000000
+; "NewTabPageSearchBox"="redirect"
+; "QuickSearchShowMiniMenu"=dword:00000000
+"ShowMicrosoftRewards"=dword:00000000
+"ShowRecommendationsEnabled"=dword:00000000
+; "SleepingTabsEnabled"=dword:00000001
+; "WebWidgetAllowed"=dword:00000000
+; "WebWidgetIsEnabledOnStartup"=dword:00000000
+
+;Disable F1 key in Windows explorer
+[HKEY_CURRENT_USER\SOFTWARE\Classes\Typelib\{8cec5860-07a1-11d9-b15e-000d56bfe6ee}\1.0\0\win32]
+@=""
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\Typelib\{8cec5860-07a1-11d9-b15e-000d56bfe6ee}\1.0\0\win64]
+@=""
+
+;Disable taskbar weather and news
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Feeds]
+"ShellFeedsTaskbarOpenOnHover"=dword:00000000
+"ShellFeedsTaskbarViewMode"=dword:00000002
+"ShellFeedsTaskbarContentUpdateMode"=dword:00000001
+
+;Disable privacy review in OOBE
+; [HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\OOBE]
+; "DisablePrivacyExperience"=dword:00000001
+
+;Disable Meet Now icon in notification area
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+"HideSCAMeetNow"=dword:00000001
+"AllowOnlineTips"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\OneDrive]
+"DisableLibrariesDefaultSaveToOneDrive"=dword:00000000
+
+;Prevent the sync app from generating network traffic until users sign in
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\OneDrive]
+"PreventNetworkTrafficPreUserSignIn"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Privacy]
+"TailoredExperiencesWithDiagnosticDataEnabled"=dword:00000000
+
+;Revert Windows 10 ribbon as it causes a considerable delay in the file explorer
+; [HKEY_CURRENT_USER\Software\Classes\CLSID\{d93ed569-3b3e-4bff-8355-3c44f6a52bb5}\InprocServer32]
+; @=""
+
+;Disable get the most out of Windows
+; [HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\UserProfileEngagement]
+; "ScoobeSystemSettingEnabled"=dword:00000000
+
+;Disable fast start-up
+; [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Power]
+; "HiberbootEnabled"=dword:00000000
+
+;Disable ad tailoring
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\AdvertisingInfo]
+"Enabled"=dword:00000000
+"Id"=-
+
+;Do not ask for feedback
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Siuf\Rules]
+"NumberOfSIUFInPeriod"=dword:00000000
+
+;Disable cloud search
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\SearchSettings]
+"IsMSACloudEnabled"=dword:00000000
+"IsDeviceSearchHistoryEnabled"=dword:00000000
+"IsAADCloudSearchEnabled"=dword:00000000
+
+;Disable Windows Security summary notifications
+; [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender Security Center\Virus and threat protection]
+; "SummaryNotificationDisabled"=dword:00000001
+
+;Use UTC time for real-time clock
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\TimeZoneInformation]
+"RealTimeIsUniversal"=dword:00000001

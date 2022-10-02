@@ -15,20 +15,21 @@ choco install filezilla.server -y
 choco install Firefox -y
 choco install fontforge -y
 choco install fzf -y
-choco install gifcam -y
+# gifcam needs to be fixed
+# choco install gifcam -y
 # choco install github-desktop -y
 choco install greenshot -y
 choco install HeidiSQL -y
 choco install InkScape -y
 choco install irfanview -y
-choco install linqpad7 -y
+# Linqpad needs to be fixed
+# choco install linqpad7 -y
 choco install lunacy -y
 # choco install manictime -y
 # choco install manictime.install -y
 choco install mysql.workbench -y
 choco install netfx-4.6.2 -y
 choco install obs-studio -y
-choco install obs-studio.install -y
 choco install pandoc -y
 choco install path-copy-copy -y
 choco install pdfsam -y
@@ -42,7 +43,6 @@ choco install slack -y
 choco install screentogif.install -y
 choco install StarUML -y
 choco install strokesplus -y
-choco install strokesplus.install -y
 choco install teamviewer -y
 choco install thunderbird -y
 choco install totalcommander -y
