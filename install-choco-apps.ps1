@@ -8,6 +8,7 @@ choco install autoit.install -y
 choco install bat -y
 choco install crystaldiskmark -y
 choco install dbgate -y
+choco install dbeaver -y
 choco install fiddler -y
 choco install filezilla -y
 choco install filezilla.server -y
