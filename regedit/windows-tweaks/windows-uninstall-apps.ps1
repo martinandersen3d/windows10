@@ -1,3 +1,8 @@
+# List all the apps installed:
+# Get-AppxPackage | Select Name, PackageFullName
+
+
+
 # Hide Windows Search Taskbar:
 Set-ItemProperty -Path HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Search -Name SearchBoxTaskbarMode -Value 0 -Type DWord -Force
 
@@ -10,6 +15,7 @@ Get-AppxPackage Microsoft.BingNews | Remove-AppxPackage # Remove News app
 # Get-AppxPackage Microsoft.Todos | Remove-AppxPackage # Remove Microsoft To Do
 Get-AppxPackage Microsoft.MicrosoftSolitaireCollection | Remove-AppxPackage # Remove Microsoft Solitaire Collection
 Get-AppxPackage Microsoft.WindowsFeedbackHub | Remove-AppxPackage # Remove Feedback Hub
+Get-AppxPackage king.com.CandyCrushSaga | Remove-AppxPackage
 # Get-AppxPackage Microsoft.MicrosoftOfficeHub | Remove-AppxPackage # Remove Office app
 # Get-AppxPackage Microsoft.PowerAutomateDesktop | Remove-AppxPackage # Remove Power Automate
 Get-AppxPackage Microsoft.Microsoft3DViewer | Remove-AppxPackage # Remove 3D Viewer
