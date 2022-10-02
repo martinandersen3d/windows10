@@ -30,4 +30,4 @@ https://www.softwareok.com/?seite=Microsoft/QuickTextPaste
 Makes it easy to setup fast navigation to important apps, folders and websites:
 
 ![image](./images/taskbarlinks.png)
-![image](./images/linkspreview.png)
+![image](./images/linkpreview.png)
