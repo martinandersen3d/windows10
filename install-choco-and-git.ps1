@@ -2,4 +2,4 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 
 choco install git -y
 
-git clone https://github.com/martinandersen3d/windows10 -
+# git clone https://github.com/martinandersen3d/windows10 

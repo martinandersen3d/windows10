@@ -1,0 +1,14 @@
+code-insiders --install-extension formulahendry.code-runner
+code-insiders --install-extension george-alisson.html-preview-vscode
+code-insiders --install-extension GitHub.github-vscode-theme
+code-insiders --install-extension GrapeCity.gc-excelviewer
+code-insiders --install-extension ms-python.python
+code-insiders --install-extension ms-python.vscode-pylance
+code-insiders --install-extension ms-toolsai.jupyter
+code-insiders --install-extension ms-toolsai.jupyter-keymap
+code-insiders --install-extension ms-toolsai.jupyter-renderers
+code-insiders --install-extension ms-toolsai.vscode-jupyter-cell-tags
+code-insiders --install-extension ms-toolsai.vscode-jupyter-slideshow
+code-insiders --install-extension nico-castell.linux-desktop-file
+code-insiders --install-extension oleg-shilo.favorites
+code-insiders --install-extension sandorengholm.csspreview

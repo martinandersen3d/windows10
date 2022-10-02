@@ -1,3 +1,5 @@
+choco install vscode.install -y
+choco install vscode-insiders.install -y
 choco install 7zip -y
 choco install 7zip.install -y
 choco install anydesk.install -y
@@ -48,8 +50,6 @@ choco install treesizefree -y
 choco install velocity -y
 choco install virustotaluploader -y
 choco install vlc -y
-choco install vscode.install -y
-choco install vscode-insiders.install -y
 choco install winmerge -y
 choco install zeal -y
 choco install zeal.install -y
