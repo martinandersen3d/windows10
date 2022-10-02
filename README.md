@@ -1,6 +1,8 @@
 # windows10
 - Windows 10 post install scripts
 
+## Automated installation:
+
 1. Go to this. link and check that it is installed and up to date:
 https://apps.microsoft.com/store/detail/app-installer/9NBLGGH4NNS1
 
@@ -10,7 +12,7 @@ https://apps.microsoft.com/store/detail/app-installer/9NBLGGH4NNS1
 ```
 
 
-# Manuel Install
+## Manuel Install
 
 https://www.google.com/chrome/
 
@@ -24,6 +26,10 @@ https://www.linqpad.net/Download.aspx
 
 https://www.softwareok.com/?seite=Microsoft/QuickTextPaste
 
+
+## Git SSH Setup (for linux, but windows is almost the same with OpenSSH)
+- TODO: Create a PowerShell version
+https://github.com/martinandersen3d/github-ssh-key-setup
 
 # Work in Progress
 
