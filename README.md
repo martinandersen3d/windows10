@@ -27,6 +27,12 @@ https://www.linqpad.net/Download.aspx
 https://www.softwareok.com/?seite=Microsoft/QuickTextPaste
 
 
+## Powershell Unrestricted
+
+```
+Set-ExecutionPolicy -Scope CurrentUser Unrestricted
+```
+
 ## Git SSH Setup (for linux, but windows is almost the same with OpenSSH)
 - TODO: Create a PowerShell version
 https://github.com/martinandersen3d/github-ssh-key-setup
