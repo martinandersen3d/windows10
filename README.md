@@ -43,3 +43,6 @@ Makes it easy to setup fast navigation to important apps, folders and websites:
 
 ![image](./images/taskbarlinks.png)
 ![image](./images/linkpreview.png)
+
+# Disk Cleanup for VMs
+https://github.com/builtbybel/burnbytes
