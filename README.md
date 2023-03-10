@@ -33,8 +33,7 @@ https://www.softwareok.com/?seite=Microsoft/QuickTextPaste
 Set-ExecutionPolicy -Scope CurrentUser Unrestricted
 ```
 
-## Git SSH Setup (for linux, but windows is almost the same with OpenSSH)
-- TODO: Create a PowerShell version
+## Git SSH Setup
 https://github.com/martinandersen3d/github-ssh-key-setup
 
 # Work in Progress
@@ -44,5 +43,14 @@ Makes it easy to setup fast navigation to important apps, folders and websites:
 ![image](./images/taskbarlinks.png)
 ![image](./images/linkpreview.png)
 
-# Disk Cleanup for VMs
+# VMs
+
+## Disk Cleanup for VMs
 https://github.com/builtbybel/burnbytes
+
+## Save space - Disable Pagefile, only if you have a lot of ram:
+- Advanced System Settings > Advanced > Performance > Advenaced > Change..
+- Click "No Page File"
+- Click "Set" button _IMPORTANT!!_
+- Click "Ok"
+
