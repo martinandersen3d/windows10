@@ -54,3 +54,30 @@ https://github.com/builtbybel/burnbytes
 - Click "Set" button _IMPORTANT!!_
 - Click "Ok"
 
+# Download this file frmo terminal
+```
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/martinandersen3d/windows10/main/README.md"  -OutFile "$HOME\Downloads\Readme.md"
+```
+
+# chrome
+download chrome from commandline
+
+
+```ps1
+Invoke-WebRequest -Uri "https://dl.google.com/chrome/install/latest/chrome_installer.exe" -OutFile "$HOME\Downloads\chrome_installer.exe"
+```
+
+
+install choco
+
+```ps1
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+```
+
+https://github.com/martinandersen3d/windows10
+
+https://github.com/martinandersen3d/github-ssh-key-setup
+
+
+
+
